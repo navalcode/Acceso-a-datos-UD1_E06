@@ -25,13 +25,18 @@ public class Producto implements Serializable {
     @JoinColumn(name = "categoria", foreignKey = @ForeignKey(name = "FK_PRODUCTO_CATEGORIA"))
     private Categoria categoria;
 
-    public void addCategoria(Categoria c) {
-        this.categoria = c;
-        c.getProductos().add(this);
+    public void addCategoria(Categoria category) {
+        java.util.Objects.requireNonNull(category, "category");
+        if (this.categoria != null && this.categoria != category) {
+            this.categoria.getProductos().remove(this);
+        }
+        this.categoria = category;
+        if (!category.getProductos().contains(this)) category.getProductos().add(this);
     }
 
-    public void removeCategoria(Categoria c) {
-        c.getProductos().remove(this);
+    public void removeCategoria(Categoria category) {
+        if (category == null || this.categoria != category) return;
+        category.getProductos().remove(this);
         this.categoria = null;
     }
 

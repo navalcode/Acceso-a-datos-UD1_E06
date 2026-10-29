@@ -1,0 +1,50 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "c8ff93ff5a9942406fcab52c60206f1db1c87818a2f642ee30edc9582a65f968"
+  },
+  {
+    "path": "DESIGN.md",
+    "sha256": "83d514b9ba59bfb25cfc84f72f7bd4e7e30523a30e89fbb9b45b562bdd4e6281"
+  },
+  {
+    "path": "README.es.md",
+    "sha256": "7dd71a1a4f57c5f05f0f782f469e8d31dc703debb8ddb608da9370280c217b7d"
+  },
+  {
+    "path": "README.md",
+    "sha256": "23b1d0d601796daaedfa4f287f2a1a1d61014ea3332a2c5a4ef275f6a9e58aaf"
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "sha256": "b5d04f1ad6b5210da1877f546dc16f116f94e857d5f0069d739b4cbd0a62b09e"
+  },
+  {
+    "path": "docs/verification.json",
+    "sha256": "7368d9af097cb1c9cd7a700d413476847b5d1d8756c54a54370e1ca71b5b449c"
+  },
+  {
+    "path": "ejercicio1/src/main/java/com/salesianos/triana/ejercicio1/models/Producto.java",
+    "sha256": "15d495b5cc9f69321b145aace44d303af61beb71c352c497113d09de6a42f6ee"
+  },
+  {
+    "path": "ejercicio1/src/test/java/com/salesianos/triana/ejercicio1/RelationshipOwnershipTest.java",
+    "sha256": "a3637d77023c459209a473c81a148fd20f652aeeaa0b597be73771399ff0feb3"
+  },
+  {
+    "path": "ejercicio1/src/test/java/com/salesianos/triana/ejercicio1/RelationshipPersistenceTest.java",
+    "sha256": "3febdeb10424d6cc88712eff9dabd2735c14607b7aa23fa9d87e153aa1154cc8"
+  },
+  {
+    "path": "ejercicio2/src/main/java/com/salesianos/triana/ejercicio2/models/Curso.java",
+    "sha256": "9d2237446a44914f6a45847631c123b448b16c8fc1b2c87383f9a5be8764b5b1"
+  },
+  {
+    "path": "ejercicio2/src/test/java/com/salesianos/triana/ejercicio2/RelationshipOwnershipTest.java",
+    "sha256": "42c61ead4e5b8cdce3c8571bed13519983a401b06bb71d7fa628c14f5216bb36"
+  },
+  {
+    "path": "ejercicio2/src/test/java/com/salesianos/triana/ejercicio2/RelationshipPersistenceTest.java",
+    "sha256": "2f2ce9dd9f0eb27ef261bfbf6ceabbd46aca9b4489f5ce823c9995c42344685e"
+  }
+]
